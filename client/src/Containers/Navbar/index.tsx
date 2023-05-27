@@ -2,8 +2,6 @@ import { FC } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { Button, Navbar as DaisyNavbar } from "react-daisyui";
-import CartDropDown from "../../Components/Navbar/CartDropDown";
-import UserSettings from "../../Components/Navbar/UserSettings";
 
 const Navbar: FC = () => {
   const navigate = useNavigate();
@@ -17,7 +15,7 @@ const Navbar: FC = () => {
             color="ghost"
             onClick={() => navigate("/")}
           >
-            Μπαχαλάδικο
+            App
           </Button>
         </div>
 
@@ -30,11 +28,6 @@ const Navbar: FC = () => {
           >
             Mobile Phones
           </Button>
-        </div>
-
-        <div className="flex-none">
-          <CartDropDown />
-          <UserSettings />
         </div>
       </DaisyNavbar>
     </div>

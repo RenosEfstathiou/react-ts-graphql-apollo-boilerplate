@@ -29,11 +29,6 @@ export const { addProduct } = cartSlice.actions;
  * export selectors
  */
 
-export const selectCartProducts = ({ cart }: RootState) => cart.products;
-
-export const selectCartProductIds = ({ cart }: RootState) =>
-  cart.products.map((product) => product.id);
-
 /**
  * export reducer
  */
