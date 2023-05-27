@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "lib": ["esnext"],
+        "strict": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "types": ["node"],
+        "baseUrl": "./",
+        "rootDir": ".",
+        "sourceMap": true,
+        "paths": {
+            "@client/*": ["../client/*"],
+            "@server/*": ["./*"]
+        }
+    }
+}
