@@ -3,7 +3,7 @@ import { ProductTypeDef } from "./graphQL/Product";
 export const schema = `#graphql
   # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
 
-    ${ProductTypeDef}
+  ${ProductTypeDef}
 
 
   # The "Query" type is special: it lists all of the available queries that
